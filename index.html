@@ -5,38 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid"> 
         <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/All-About-Me.jpeg" class="card-img-top" alt="about me">
-                    <div class="card-body">
+             <div class="col">
+                <div class="card">
+                    <img src="images/All-About-Me.jpeg" class="card-img-top" alt="about me" style="width: 100%; height: auto;"> <!-- Responsive image -->
+                    <div class="card-body d-flex flex-column">
                       <h5 class="card-title">About Me</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">I am an enthusiastic and dedicated English language teacher from Ankara, Turkey, holding a Bachelor's degree in English Language Teaching. With nearly 13 years of diverse experience in education, I have had the privilege of teaching middle and high school students in Mongolia, Laos, and Albania, engaging with international learners from various backgrounds.</p>
+                      <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/work.jpeg" class="card-img-top" alt="work">
-                    <img src="resim1.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
+                <div class="card">
+                    <img src="images/work.jpeg" class="card-img-top" alt="work" style="width: 100%; height: auto;"> <!-- Responsive image -->
+                    <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Work Experience</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">2011-2019 / Mongolia</p>
+                      <p class="card-text">Empathy Schools</p>
+                      <p class="card-text">2019-2020 / Laos</p>
+                      <p class="card-text">International School of Laos</p> 
+                      <p class="card-text">2021-2023 / Albania</p>
+                      <p class="card-text">Mehmet Akif College</p>
+                      <button type="button" class="btn btn-info">Info</button>
                     </div>
                   </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/success.webp" class="card-img-top" alt="success">
-                    <div class="card-body">
+            <div class="col"> 
+                <div class="card">
+                    <img src="images/success.webp" class="card-img-top" alt="success" style="width: 100%; height: auto;"> <!-- Responsive image -->
+                    <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Achievements</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">TEFL Certificate</p>
+                      <p class="card-text">World Scholars' Cup Organizer</p>
+                      <p class="card-text">Medal for Teacher’s Excellency</p>
+                      <p class="card-text">Milan MUN Advisor</p>
+                      <button type="button" class="btn btn-success">Success</button>
                     </div>
                   </div>
             </div>
